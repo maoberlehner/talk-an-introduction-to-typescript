@@ -1,0 +1,29 @@
+{
+  "name": "talk-an-introduction-to-typescript",
+  "version": "0.0.1",
+  "author": "Markus Oberlehner",
+  "homepage": "https://github.com/maoberlehner/talk-an-introduction-to-typescript",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maoberlehner/talk-an-introduction-to-typescript"
+  },
+  "bugs": {
+    "url": "https://github.com/maoberlehner/talk-an-introduction-to-typescript/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.21",
+    "@types/sinon": "^2.2.2",
+    "ava": "^0.19.1",
+    "sinon": "^2.3.0",
+    "tslint": "^5.2.0",
+    "typescript": "^2.3.2"
+  },
+  "scripts": {
+    "start": "yarn run clean && tsc -w",
+    "build": "yarn run clean && tsc",
+    "clean": "rm -Rf app",
+    "lint": "tslint 'src/**/*.ts'",
+    "test": "yarn run build && ava app/**/*.spec.js"
+  }
+}
