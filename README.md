@@ -1,5 +1,5 @@
 # talk-an-introduction-to-typescript
-This is an example repository created for the following talke: [An Introduction to TypeScript](https://docs.google.com/presentation/d/1HqzuYaruOpZHMoUn4YwXOkmmAoDywWCRoSCRuiyMteY/edit#slide=id.g15692e0f82_0_229).
+This is an example repository created for the following talk: [An Introduction to TypeScript](https://docs.google.com/presentation/d/1HqzuYaruOpZHMoUn4YwXOkmmAoDywWCRoSCRuiyMteY/edit#slide=id.g15692e0f82_0_229).
 
 ## Getting started
 - `yarn start` Runs the TypeScript compiler in watch mode.
